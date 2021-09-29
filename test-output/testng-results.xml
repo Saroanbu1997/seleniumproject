@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T11:01:07 IST" name="Suite" finished-at="2021-09-28T11:02:01 IST" duration-ms="54341">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T11:01:07 IST" name="SampleTest" finished-at="2021-09-28T11:01:32 IST" duration-ms="25287">
+      <class name="com.picnic.maven.RecorderScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.picnic.maven.RecorderScript@1e04fa0a]" started-at="2021-09-28T11:01:07 IST" name="setup" finished-at="2021-09-28T11:01:13 IST" duration-ms="5750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:com.picnic.maven.RecorderScript@1e04fa0a]" started-at="2021-09-28T11:01:13 IST" name="testParameterWithXML" finished-at="2021-09-28T11:01:32 IST" duration-ms="19476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picnic.maven.RecorderScript -->
+    </test> <!-- SampleTest -->
+    <test started-at="2021-09-28T11:01:32 IST" name="Sample2Test" finished-at="2021-09-28T11:02:01 IST" duration-ms="29009">
+      <class name="com.picnic.maven.RecorderScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.picnic.maven.RecorderScript@27462a88]" started-at="2021-09-28T11:01:32 IST" name="setup" finished-at="2021-09-28T11:01:38 IST" duration-ms="5680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:com.picnic.maven.RecorderScript@27462a88]" started-at="2021-09-28T11:01:38 IST" name="testParameterWithXML" finished-at="2021-09-28T11:02:01 IST" duration-ms="23315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.picnic.maven.RecorderScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- Suite -->
+</testng-results>
