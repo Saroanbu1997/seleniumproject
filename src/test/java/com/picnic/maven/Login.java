@@ -148,9 +148,10 @@ public class Login {
 		
         //LOGOUT
 		
-		WebElement logout = driver.findElement(By.linkText("Welcome Elakkiya12SA;DMA;DM@!K2" ));
+	          WebElement logout = driver.findElement(By.xpath("//a[@id='welcome']" ));
+
 		logout.click();
-		WebElement logout1 = driver.findElement(By.partialLinkText("Logo"));
+		WebElement logout1 = driver.findElement(By.xpath("//a[contains(text(),'Logout')]"));
 		logout1.click();
 		 driver.quit();
 	}
