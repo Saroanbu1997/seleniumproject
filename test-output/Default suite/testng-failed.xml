@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <parameter name="browser" value="Firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.picnic.maven.RecorderScript">
+      <class name="com.picnic.maven.parallelTest">
         <methods>
-          <include name="testParameterWithXML"/>
-          <include name="setup"/>
+          <include name="login_Testcase"/>
+          <include name="search_Testcase"/>
+          <include name="close_browser"/>
+          <include name="openbrowser"/>
         </methods>
-      </class> <!-- com.picnic.maven.RecorderScript -->
+      </class> <!-- com.picnic.maven.parallelTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
